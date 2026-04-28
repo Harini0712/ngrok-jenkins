@@ -52,7 +52,7 @@ pipeline {
                             docker run -d \
                                 --name app \
                                 --restart always \
-                                -p 80:3000 \
+                                -p 8081:3000 \
                                 ${IMAGE}:latest
                         '
                     """
