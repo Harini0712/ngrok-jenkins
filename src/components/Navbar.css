@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+  align-items: center;
+  padding: 36px 40px;
+  background-color: transparent; 
+  color:#d4a373;
+  font-family: 'Comic Neue', cursive, 'Quicksand', sans-serif;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 54px;
+padding-left: 200px;
+  font-size: 1.7rem;
+
+  color:#d4a373;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #d4a373; 
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px; 
+  font-weight: 500;
+  font-size: 1rem;
+
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+    background: #3D2A1C;
+    color: #fff;
+    border: 1.5px solid #3D2A1C;
+}
+
+.login-btn:hover {
+  background: #3D2A1C;
+  color: #fff;
+}
+
+.signup-btn {
+  background: #d4a373;
+  color: #3D2A1C;
+}
+
+.signup-btn:hover {
+  background: #3D2A1C;
+  color: #fff;
+}
